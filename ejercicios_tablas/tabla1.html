@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Tabla</title>
+    <style>
+        table, th {
+            border: 1px solid white;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 40px 80px;
+            background-color: #e5e8e8;
+        }
+        caption {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio Tabla 1</h1>
+    <table>
+        <tbody>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+        </tr>
+        <tr>
+            <th rowspan="2">E ,I</th>
+            <th>F</th>
+            <th colspan="2">G ,H</th>
+            <!-- <th>H</th> -->
+        </tr>
+        <tr>
+            <!-- <th>I</th> -->
+            <th>J</th>
+            <th rowspan="2">K, O</th>
+            <th>L</th>
+        </tr>
+        <tr>
+            <th>M</th>
+            <th>N</th>
+            <!-- <th>O</th> -->
+            <th>P</th>
+        </tr>
+    </tbody>
+    <caption>CAPTION DE LA TABLA</caption>
+    </table>
+</body>
+</html>
